@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header .search-form {
+    margin: 1em 0;
+}
+
+header .search-form input {
+    padding: 0.5em;
+    width: 200px;
+}
+
+header .search-form button {
+    padding: 0.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 1em;
+}
+
+.hero {
+    text-align: center;
+}
+
+.gallery {
+    margin: 2em 0;
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1em;
+}
+
+.photo-grid img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+footer form
+
+.user-form {
+    margin: 2em 0;
+}
+
+.user-form form {
+    display: grid;
+    gap: 1em;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.user-form label {
+    display: block;
+}
+
+.user-form input {
+    padding: 0.5em;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.user-form button {
+    padding: 0.5em;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.user-form button:hover {
+    background-color: #555;
+}
+
+.contact-form {
+    display: grid;
+    gap: 1em;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    display: block;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    padding: 0.5em;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    padding: 0.5em;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}

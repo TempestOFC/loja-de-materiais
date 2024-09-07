@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Materiais de Construção - Contato</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Loja de Materiais de Construção</h1>
+        <form action="#" method="get" class="search-form">
+            <input type="text" name="search" placeholder="Pesquisar...">
+            <button type="submit">Pesquisar</button>
+        </form>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact">
+            <h2>Entre em Contato Conosco</h2>
+            <p>Atendemos em todo brazil</p>
+            <form action="#" method="post" class="contact-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="city">Cidade:</label>
+                <select id="city" name="city" required>
+                    <option value="" disabled selected>Escolha sua cidade</option>
+                    <option value="sao_paulo">São Paulo</option>
+                    <option value="rio_de_janeiro">Rio de Janeiro</option>
+                    <option value="belo_horizonte">Belo Horizonte</option>
+                    <option value="porto_alegre">Porto Alegre</option>
+                    <option value="curitiba">Curitiba</option>
+                </select>
+                
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <h2>Solicitar Orçamento</h2>
+        <form action="#" method="post" class="budget-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </footer>
+</body>
+</html>
